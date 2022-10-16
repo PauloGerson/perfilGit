@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    color: white;
+    background-color: #131313;
+}
+.container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.profile{
+    color: white;
+    display: flex;
+    font-family: 'DM Sans', sans-serifs;
+}
+.divContainer{
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serifs;
+    font-size: 1.5rem;
+    margin: 2rem 0 0 2rem;
+}
+
+.profile-descricao{
+    font-size: 1.1rem;
+    width: 30rem;
+    font-weight: 300;
+    margin: 1rem 0 1rem 0;
+    font-family: 'Montserrat';
+}
+.container img{
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.search input{
+    padding: 10px;
+    width: 15rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.search button{
+    margin-left: 1rem;
+    padding: 10px;
+    width: 7rem;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.respoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 2rem;
+    width: 100%;
+    
+}
+
+.respo{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    padding: 20px;
+    background-color: #353333; 
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+}
+.respo p:nth-child(2){
+    font-family: 'DM Sans';
+    font-size: 0.8rem;
+}
+.teste a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
