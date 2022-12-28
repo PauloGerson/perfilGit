@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #19253f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat';
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.search{
+    padding: 12px;
+    background-color: #0b10258f;
+    margin-bottom: 1rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+input{
+    display: inline;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    padding-left: 2rem;
+}
+
+.btn{
+    background-color: #eb710e;
+    padding: 10px;
+    width: 7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 0.4s;
+    border: none;
+ text-transform: uppercase;
+ font-weight: 400;
+}
+
+.btn:hover{
+    background-color: #d66712dc;
+}
+.content-profile{
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+    
+}
+.profile{
+    background-color: #0b10258f;
+    padding: 15px;
+    width: 40rem;
+    height: auto;
+    border-radius: 5px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+
+    background-color: #0b1025;
+    width: 27rem;
+    padding: 15px;
+    margin-top: 3rem;
+    border-radius: 4px;
+    text-align: center;
+
+    font-family: 'DM sans';
+    font-weight: 100;
+}
+
+.description p{
+    padding-top: 0.6rem;
+    
+}
+
+
+.divContainer{
+    margin-top: 2rem;
+}
+.divContainer p{
+    line-height: 2rem;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: white solid 4px;
+}
+
+
+
+
+
+/* .respoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 2rem;
+    width: 100%;
+    
+}
+
+.respo{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    padding: 20px;
+    background-color: #353333; 
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+}
+.respo p:nth-child(2){
+    font-family: 'DM Sans';
+    font-size: 0.8rem;
+}
+.teste a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+} */
